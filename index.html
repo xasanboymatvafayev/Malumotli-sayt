@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+  
+    <nav class="bg-blue-500 text-center text-white h-36 shadow-xl">
+        <h1 class="font-bold text-2xl relative top-9">tailwind css imtihon</h1>
+        <p class="relative top-9">Lorem ipsum dolor sit amet. Lorem, ipsum.</p>
+    </nav>
+    <br><br>
+
+    <section class="container mx-auto shadow border rounded-lg p-4">
+
+
+        <h2 class="text-xl font-bold text-gray-700 mb-4">1. FORM</h2>
+        <p class="text-gray-600 mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, pariatur.</p>
+
+        <div class="border border-dashed border-gray-300 p-4 rounded-lg">
+            <form class="space-y-4">
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                    <input type="email" id="email"
+                        class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                        placeholder="name@example.com">
+                </div>
+
+                <div class="flex items-center">
+                    <input type="checkbox" id="check"
+                        class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded">
+                    <label for="check" class="ml-2 block text-sm text-gray-700">Subscribe to newsletter</label>
+                </div>
+
+                <button type="submit"
+                    class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-md transition duration-200">Submit</button>
+            </form>
+
+    </section>
+
+
+    <section class="container mx-auto shadow border rounded-lg p-4 mt-10">
+        <h2 class="text-xl font-semibold text-gray-700 mb-4">2. Flex Alignment</h2>
+        <p class="text-gray-600 mb-4">Quyidagi elementlarni vertikal va gorizontal markazga tekkan holda joylashtiring,
+            Hover qilinganda rang o'zgarsin.</p>
+
+        <div class="border  border-gray-300 p-4 rounded-lg bg-gray-400">
+            <div class="flex justify-center items-center h-32 bg-gray-400 rounded-md">
+                <div
+                    class="bg-blue-500 hover:bg-purple-500 text-white font-medium py-2 px-4 rounded transition duration-200 cursor-pointer">
+                    Markaz
+                </div>
+            </div>
+           
+           
+        </div>
+        <textarea name="" id="" cols="190" rows="4" class="mt-4 w-full border">
+
+        </textarea>
+    </section>
+
+
+    <section class="container mx-auto shadow border rounded-lg p-4 mt-10">
+        <h2 class="text-xl font-semibold text-gray-700 mb-4">3. Button komponentini yaratish</h2>
+        <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, nostrum.</p>
+        
+        <div class=" border-gray-300 p-4 rounded-lg ">
+            <button class="bg-blue-500 text-white rounded-md p-2 ">primary</button>
+            <button class="bg-gray-800 text-white rounded-md p-2 ">secondary</button>
+            <button class="bg-gray-400  rounded-md p-2  cursor-not-allowed">disabled</button>
+             
+        </div>
+        <textarea name="" id="" cols="190" rows="4" class="mt-4 w-full border">
+
+        </textarea>
+    </section>
+
+    <section class="container mx-auto shadow border rounded-lg p-4 mt-10">
+        <h2 class="text-xl font-semibold text-gray-700 mb-4">4. FLEXBOX</h2>
+        <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, beatae.</p>
+        
+        <div class="border border-dashed border-gray-300 p-4 rounded-lg">
+            <nav class="flex justify-center">
+                <div class="flex justify-between w-full max-w-md bg-gray-100 rounded-md p-2">
+                    <a href="#" class="text-gray-700 hover:text-blue-600 font-medium px-4 py-2 transition duration-200">Home</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-600 font-medium px-4 py-2 transition duration-200">About</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-600 font-medium px-4 py-2 transition duration-200">Services</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-600 font-medium px-4 py-2 transition duration-200">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+
+    <section class="container mx-auto shadow border rounded-lg p-4 mt-10">
+        <h2 class="text-xl font-semibold text-gray-700 mb-4">5. Tailwind Grid</h2>
+        
+        <div class=" border-gray-300 p-4 rounded-lg">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-green-300 p-4 rounded-md text-center">Grid Element 1</div>
+                <div class="bg-green-300 p-4 rounded-md text-center">Grid Element 2</div>
+                <div class="bg-green-300 p-4 rounded-md text-center">Grid Element 3</div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center mt-10 pt-6 border-t border-gray-200">
+        <button class="bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-6 rounded-md transition duration-200">
+            Imtixonni yakunlash
+        </button>
+        <p class="text-gray-500 text-sm mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </footer>
+</body>
+
+</html>
+<!-- class = "w-full p-3 rounded-lg border focus:ring-blue-600 outline none" -->
